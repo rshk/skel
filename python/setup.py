@@ -18,9 +18,9 @@ setup(
     packages=find_packages(),
     url='PACKAGE_URL',
     license='BSD License',  # Apache 2.0 License
-    author='Samuele Santi',
-    author_email='redshadow@hackzine.org',
-    description='Python library to calculate differences between objects.',
+    author='',
+    author_email='',
+    description='',
     long_description=longdesc,
     install_requires=[],
     # tests_require=tests_require,
