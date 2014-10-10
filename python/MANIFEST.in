@@ -1,7 +1,7 @@
 include README.rst
 include CHANGELOG.rst
 # include *.rst
-include LICENSE
+# include LICENSE
 
 # Some examples below.
 # See docs at: https://docs.python.org/2/distutils/sourcedist.html#the-manifest-in-template
