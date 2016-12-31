@@ -10,7 +10,6 @@ help:
 	@echo "AVAILABLE TARGETS"
 	@echo "----------------------------------------"
 	@echo "pypi_upload - build source distribution and upload to pypi"
-	@echo "pypi_register - register proejct on pypi"
 	@echo "package - build sdist and py2/py3 wheels"
 	@echo "twine_upload - upload via twine"
 	@echo
@@ -22,9 +21,6 @@ help:
 	@echo
 	@echo "docs - build documentation (HTML)"
 	@echo "publish_docs - publish documentation to GitHub pages"
-
-pypi_register:
-	python setup.py register -r https://pypi.python.org/pypi
 
 pypi_upload:
 	python setup.py sdist upload -r https://pypi.python.org/pypi

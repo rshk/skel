@@ -50,6 +50,7 @@ setup(
         # 'Programming Language :: Python :: 3.3',
         # 'Programming Language :: Python :: 3.4',
         # 'Programming Language :: Python :: 3.5',
+        # 'Programming Language :: Python :: 3.6',
         # 'Programming Language :: Python :: 3 :: Only',
 
         # 'Programming Language :: Python :: Implementation :: CPython',
@@ -58,6 +59,9 @@ setup(
         # 'Programming Language :: Python :: Implementation :: PyPy',
         # 'Programming Language :: Python :: Implementation :: Stackless',
     ],
+    # entry_points={
+    #     'console_scripts': ['PACKAGE_NAME=PACKAGE_NAME.cli:main'],
+    # },
     package_data={'': ['README.rst', 'CHANGELOG.rst']},
     include_package_data=True,
     zip_safe=False)
