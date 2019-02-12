@@ -1,7 +1,23 @@
+# Python setup.py template
+# ====================================================================
+#
+# Usage:
+#     - Replace PACKAGE_NAME with your desired package name
+#     - Replace PACKAGE_URL with your package URL (usually github repo
+#       page, or pypi package page)
+#     - Replace PACKAGE_VERSION with your package version (usually 0.1
+#       for the initial release)
+#     - Pick a license. The default one in this example setup.py is
+#       BSD; a few other options are provided commented-out.
+#     - Un-comment the desired classifiers, delete the rest
+#     - Fill in author information (name, email), and description
+#
+# ====================================================================
+
 import os
 from setuptools import setup, find_packages
 
-version = 'INSERT_VERSION_HERE'
+version = 'PACKAGE_VERSION'
 
 here = os.path.dirname(__file__)
 
@@ -17,18 +33,24 @@ setup(
     version=version,
     packages=find_packages(),
     url='PACKAGE_URL',
-    license='BSD License',  # Apache 2.0 License
+
+    license='BSD License',
+    # license='MIT License',
+    # license='Apache 2.0 License',
+
     author='',
     author_email='',
     description='',
     long_description=longdesc,
+
     install_requires=[],
     # tests_require=tests_require,
     # test_suite='tests',
+
     classifiers=[
-        # 'License :: OSI Approved :: Apache Software License',
         # 'License :: OSI Approved :: BSD License',
         # 'License :: OSI Approved :: MIT License',
+        # 'License :: OSI Approved :: Apache Software License',
         # 'License :: Public Domain',
 
         # 'Development Status :: 1 - Planning',
@@ -51,6 +73,7 @@ setup(
         # 'Programming Language :: Python :: 3.4',
         # 'Programming Language :: Python :: 3.5',
         # 'Programming Language :: Python :: 3.6',
+        # 'Programming Language :: Python :: 3.7',
         # 'Programming Language :: Python :: 3 :: Only',
 
         # 'Programming Language :: Python :: Implementation :: CPython',
